@@ -1,8 +1,24 @@
+import startEat from './data/eatData';
+import startPlay from './data/playData';
+import startFight from './data/fightData';
+import startSleep from './data/sleepData';
 import '../styles/main.scss';
 
+// const printToDom = (divId, printText) => {
+//   const selectedDiv = document.querySelector(divId);
+//   selectedDiv.innerHTML = printText;
+// };
+
+// const domStringBuilder = (array) => {
+//   let domString = "";
+//   array.forEach()
+// };
+
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  startEat();
+  startPlay();
+  startFight();
+  startSleep();
 };
 
 init();
