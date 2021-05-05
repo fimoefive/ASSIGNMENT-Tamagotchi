@@ -1,4 +1,4 @@
-let fun = 50;
+let fun = 33;
 
 const getFun = () => {
   $('#play').html(`<h1>Play</h1>

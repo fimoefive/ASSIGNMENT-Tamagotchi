@@ -1,4 +1,4 @@
-let full = 100;
+let full = 75;
 
 const getFull = () => {
   $('#eat').html(`<h1>Eat</h1>

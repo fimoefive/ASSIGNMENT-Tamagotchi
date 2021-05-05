@@ -1,4 +1,4 @@
-let energy = 50;
+let energy = 33;
 
 const getSleep = () => {
   $('#sleep').html(`<h1>Sleep</h1>
