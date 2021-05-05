@@ -5,7 +5,7 @@ const getFull = () => {
   <div class="eat-container" id="eatProgress"></div>
     <div>
     <button type="button" class="btn btn-success" id="healthyFood">Healthy Food</button>
-        <button type="button" class="btn btn-danger" id="JunkFood">Junk Food</button>
+        <button type="button" class="btn btn-danger" id="junkFood">Junk Food</button>
     </div>
   `);
 };
@@ -20,8 +20,8 @@ const eatHealthy = () => {
   full += 10;
   if (full > 100) {
     full = 100;
-    eatProgressBar();
   }
+  eatProgressBar();
 };
 
 const eatJunk = () => {
@@ -36,8 +36,8 @@ const startEat = () => {
   getFull();
   eatProgressBar();
 
-  $('#eatHealthy').on('click', eatHealthy);
-  $('#eatJunk').on('click', eatJunk);
+  $('#healthyFood').on('click', eatHealthy);
+  $('#junkFood').on('click', eatJunk);
 };
 
 export default startEat;

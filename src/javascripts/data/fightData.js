@@ -11,7 +11,7 @@ const getStrength = () => {
 };
 
 const fightProgressBar = () => {
-  $('#sleepProgress').html(
+  $('#fightProgress').html(
     `<div class="progress-bar" role="progressbar" style="width: ${strength}%" aria-valuenow="${strength}" aria-valuemin="0" aria-valuemax="100">${strength}% Strength</div>`,
   );
 };
@@ -25,7 +25,7 @@ const fightRun = () => {
 };
 
 const fight = () => {
-  strength -= 5;
+  strength -= 20;
   if (strength < 0) {
     strength = 0;
   }

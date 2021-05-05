@@ -1,7 +1,8 @@
 let energy = 50;
 
 const getSleep = () => {
-  $('#sleep').html(`<h1>Eat</h1>
+  $('#sleep').html(`<h1>Sleep</h1>
+  <div class="progress-container" id="sleepProgress"></div>
   <div class="eat-container" id="eatProgress"></div>
     <div>
     <button type="button" class="btn btn-success" id="sleepNap">Nap</button>
@@ -17,17 +18,17 @@ const sleepProgressBar = () => {
 };
 
 const sleepNap = () => {
-  energy += 25;
+  energy += 10;
   if (energy > 100) {
     energy = 100;
-    sleepProgressBar();
   }
+  sleepProgressBar();
 };
 
 const deepSleep = () => {
-  energy -= 5;
-  if (energy < 0) {
-    energy = 0;
+  energy += 25;
+  if (energy > 100) {
+    energy = 100;
   }
   sleepProgressBar();
 };

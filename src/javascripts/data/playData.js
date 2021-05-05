@@ -17,7 +17,7 @@ const playProgressBar = () => {
 };
 
 const playHard = () => {
-  fun += 50;
+  fun += 15;
   if (fun > 100) {
     fun = 100;
   }
@@ -25,7 +25,7 @@ const playHard = () => {
 };
 
 const playSoft = () => {
-  fun += 10;
+  fun += 8;
   if (fun > 100) {
     fun = 100;
   }
