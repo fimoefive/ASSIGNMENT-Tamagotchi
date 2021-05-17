@@ -1,4 +1,4 @@
-let fun = 33;
+let fun = 50;
 
 const getFun = () => {
   $('#play').html(`<h1>Play</h1>
@@ -17,7 +17,7 @@ const playProgressBar = () => {
 };
 
 const playHard = () => {
-  fun += 15;
+  fun += 50;
   if (fun > 100) {
     fun = 100;
   }
@@ -25,7 +25,7 @@ const playHard = () => {
 };
 
 const playSoft = () => {
-  fun += 8;
+  fun += 2;
   if (fun > 100) {
     fun = 100;
   }

@@ -1,4 +1,11 @@
 # Tamagotchi
+
+### Tamagotchi Loom video
+
+### Tamagotchi Netlify
+
+### Tamagotchi GitHub link
+
 Remember Tamagotchi's?  They looked something like this:
 
 ![Tamagotchi](./tamagotchi.jpg)
