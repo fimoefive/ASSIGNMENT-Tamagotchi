@@ -1,4 +1,14 @@
 # Tamagotchi
+
+## LINKS
+
+### [Netlify](https://mjs-tamagotchi.netlify.app)
+
+### [LOOM](https://www.loom.com/share/337babbff456431884c95f34b410cbe3)
+
+### Tamagotchi Screenshots
+<img width="1680" alt="Tamagotchi" src="https://user-images.githubusercontent.com/58958998/120896023-3908e900-c5e5-11eb-8a34-990417621f7d.png">
+
 Remember Tamagotchi's?  They looked something like this:
 
 ![Tamagotchi](./tamagotchi.jpg)

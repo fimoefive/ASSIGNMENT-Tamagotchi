@@ -1,4 +1,4 @@
-let full = 75;
+let full = 100;
 
 const getFull = () => {
   $('#eat').html(`<h1>Eat</h1>
@@ -25,7 +25,7 @@ const eatHealthy = () => {
 };
 
 const eatJunk = () => {
-  full -= 5;
+  full -= 3;
   if (full < 0) {
     full = 0;
   }

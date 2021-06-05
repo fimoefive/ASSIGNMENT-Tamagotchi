@@ -1,4 +1,4 @@
-let energy = 33;
+let energy = 50;
 
 const getSleep = () => {
   $('#sleep').html(`<h1>Sleep</h1>
@@ -18,7 +18,7 @@ const sleepProgressBar = () => {
 };
 
 const sleepNap = () => {
-  energy += 10;
+  energy += 50;
   if (energy > 100) {
     energy = 100;
   }
@@ -26,7 +26,7 @@ const sleepNap = () => {
 };
 
 const deepSleep = () => {
-  energy += 25;
+  energy += 60;
   if (energy > 100) {
     energy = 100;
   }
